@@ -315,12 +315,6 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_typesupport_introspection_c/turtle_patrol_interface/" "DESTINATION" "include/turtle_patrol_interface/turtle_patrol_interface" "PATTERN" "*.h")
-ament_cmake_symlink_install_directory("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_typesupport_introspection_c/turtle_patrol_interface/" "DESTINATION" "include/turtle_patrol_interface/turtle_patrol_interface" "PATTERN" "*.h")
-
-# install(DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_typesupport_introspection_cpp/turtle_patrol_interface/" "DESTINATION" "include/turtle_patrol_interface/turtle_patrol_interface" "PATTERN" "*.hpp")
-ament_cmake_symlink_install_directory("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_typesupport_introspection_cpp/turtle_patrol_interface/" "DESTINATION" "include/turtle_patrol_interface/turtle_patrol_interface" "PATTERN" "*.hpp")
-
 # install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/turtle_patrol_interface" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/turtle_patrol_interface" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
 
@@ -333,116 +327,11 @@ ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_wor
 # install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/turtle_patrol_interface/environment")
 ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/turtle_patrol_interface/environment")
 
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/turtle_patrol_interface/environment")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/turtle_patrol_interface/environment")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/turtle_patrol_interface/environment")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/turtle_patrol_interface/environment")
-
-# install(DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_python/turtle_patrol_interface/turtle_patrol_interface.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/turtle_patrol_interface-0.0.0-py3.10.egg-info")
-ament_cmake_symlink_install_directory("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_python/turtle_patrol_interface/turtle_patrol_interface.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/turtle_patrol_interface-0.0.0-py3.10.egg-info")
-
-# install(DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_generator_py/turtle_patrol_interface/" "DESTINATION" "local/lib/python3.10/dist-packages/turtle_patrol_interface" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-ament_cmake_symlink_install_directory("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_generator_py/turtle_patrol_interface/" "DESTINATION" "local/lib/python3.10/dist-packages/turtle_patrol_interface" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
-
-# install("TARGETS" "turtle_patrol_interface__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/turtle_patrol_interface")
-include("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install("TARGETS" "turtle_patrol_interface__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/turtle_patrol_interface")
-include("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
-# install("TARGETS" "turtle_patrol_interface__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/turtle_patrol_interface")
-include("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
-
 # install(DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_typesupport_fastrtps_c/turtle_patrol_interface/" "DESTINATION" "include/turtle_patrol_interface/turtle_patrol_interface" "PATTERN_EXCLUDE" "*.cpp")
 ament_cmake_symlink_install_directory("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_typesupport_fastrtps_c/turtle_patrol_interface/" "DESTINATION" "include/turtle_patrol_interface/turtle_patrol_interface" "PATTERN_EXCLUDE" "*.cpp")
 
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_index/share/ament_index/resource_index/rust_packages/turtle_patrol_interface" "DESTINATION" "share/ament_index/resource_index/rust_packages")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_index/share/ament_index/resource_index/rust_packages/turtle_patrol_interface" "DESTINATION" "share/ament_index/resource_index/rust_packages")
-
-# install(DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_generator_rs/turtle_patrol_interface/rust" "DESTINATION" "share/turtle_patrol_interface")
-ament_cmake_symlink_install_directory("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_generator_rs/turtle_patrol_interface/rust" "DESTINATION" "share/turtle_patrol_interface")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_adapter/turtle_patrol_interface/srv/Patrol.idl" "DESTINATION" "share/turtle_patrol_interface/srv")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_adapter/turtle_patrol_interface/srv/Patrol.idl" "DESTINATION" "share/turtle_patrol_interface/srv")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface/srv/Patrol.srv" "DESTINATION" "share/turtle_patrol_interface/srv")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface/srv/Patrol.srv" "DESTINATION" "share/turtle_patrol_interface/srv")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_cmake/srv/Patrol_Request.msg" "DESTINATION" "share/turtle_patrol_interface/srv")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_cmake/srv/Patrol_Request.msg" "DESTINATION" "share/turtle_patrol_interface/srv")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_cmake/srv/Patrol_Response.msg" "DESTINATION" "share/turtle_patrol_interface/srv")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_cmake/srv/Patrol_Response.msg" "DESTINATION" "share/turtle_patrol_interface/srv")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtle_patrol_interface" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/turtle_patrol_interface" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtle_patrol_interface" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtle_patrol_interface" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtle_patrol_interface/environment")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtle_patrol_interface/environment")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtle_patrol_interface/environment")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtle_patrol_interface/environment")
-
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtle_patrol_interface/environment")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtle_patrol_interface/environment")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtle_patrol_interface/environment")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtle_patrol_interface/environment")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/turtle_patrol_interface")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/turtle_patrol_interface")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/turtle_patrol_interface")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/turtle_patrol_interface")
-
 # install(DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_generator_cpp/turtle_patrol_interface/" "DESTINATION" "include/turtle_patrol_interface/turtle_patrol_interface" "PATTERN" "*.hpp")
 ament_cmake_symlink_install_directory("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_generator_cpp/turtle_patrol_interface/" "DESTINATION" "include/turtle_patrol_interface/turtle_patrol_interface" "PATTERN" "*.hpp")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/turtle_patrol_interface")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/turtle_patrol_interface")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/turtle_patrol_interface")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/turtle_patrol_interface")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/turtle_patrol_interface")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/turtle_patrol_interface")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_index/share/ament_index/resource_index/packages/turtle_patrol_interface" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_index/share/ament_index/resource_index/packages/turtle_patrol_interface" "DESTINATION" "share/ament_index/resource_index/packages")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_cmake/rosidl_cmake_aggregate_target-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_cmake/rosidl_cmake_aggregate_target-extras.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_core/turtle_patrol_interfaceConfig.cmake" "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_core/turtle_patrol_interfaceConfig-version.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_core/turtle_patrol_interfaceConfig.cmake" "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_core/turtle_patrol_interfaceConfig-version.cmake" "DESTINATION" "share/turtle_patrol_interface/cmake")
-
-# install(FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface/package.xml" "DESTINATION" "share/turtle_patrol_interface")
-ament_cmake_symlink_install_files("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" FILES "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface/package.xml" "DESTINATION" "share/turtle_patrol_interface")
 
 # install(DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_typesupport_fastrtps_cpp/turtle_patrol_interface/" "DESTINATION" "include/turtle_patrol_interface/turtle_patrol_interface" "PATTERN_EXCLUDE" "*.cpp")
 ament_cmake_symlink_install_directory("/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface" DIRECTORY "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_typesupport_fastrtps_cpp/turtle_patrol_interface/" "DESTINATION" "include/turtle_patrol_interface/turtle_patrol_interface" "PATTERN_EXCLUDE" "*.cpp")

@@ -1,1 +1,0 @@
-/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/lab2_turtlesim/setup.py
