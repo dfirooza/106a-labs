@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+resource/turtle_patrol
+turtle_patrol/__init__.py
+turtle_patrol/multi_patrol_client.py
+turtle_patrol/multi_patrol_server.py
+turtle_patrol/patrol_client.py
+turtle_patrol/patrol_server.py
+turtle_patrol.egg-info/PKG-INFO
+turtle_patrol.egg-info/SOURCES.txt
+turtle_patrol.egg-info/dependency_links.txt
+turtle_patrol.egg-info/entry_points.txt
+turtle_patrol.egg-info/requires.txt
+turtle_patrol.egg-info/top_level.txt
+turtle_patrol.egg-info/zip-safe

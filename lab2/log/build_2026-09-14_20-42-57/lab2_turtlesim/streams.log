@@ -1,0 +1,24 @@
+[6.158s] Invoking command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim/build --no-deps symlink_data
+[7.900s] running develop
+[9.217s] running egg_info
+[9.219s] creating lab2_turtlesim.egg-info
+[9.220s] writing lab2_turtlesim.egg-info/PKG-INFO
+[9.233s] writing dependency_links to lab2_turtlesim.egg-info/dependency_links.txt
+[9.238s] writing entry points to lab2_turtlesim.egg-info/entry_points.txt
+[9.243s] writing requirements to lab2_turtlesim.egg-info/requires.txt
+[9.247s] writing top-level names to lab2_turtlesim.egg-info/top_level.txt
+[9.251s] writing manifest file 'lab2_turtlesim.egg-info/SOURCES.txt'
+[9.269s] reading manifest file 'lab2_turtlesim.egg-info/SOURCES.txt'
+[9.272s] writing manifest file 'lab2_turtlesim.egg-info/SOURCES.txt'
+[9.280s] running build_ext
+[9.281s] Creating /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages/lab2-turtlesim.egg-link (link to .)
+[9.287s] Installing turtle_controller script to /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/lab2_turtlesim/lib/lab2_turtlesim
+[9.299s] 
+[9.300s] Installed /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim
+[9.302s] running symlink_data
+[9.304s] creating /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/lab2_turtlesim/share/ament_index
+[9.304s] creating /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/lab2_turtlesim/share/ament_index/resource_index
+[9.304s] creating /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/lab2_turtlesim/share/ament_index/resource_index/packages
+[9.306s] symbolically linking /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim/resource/lab2_turtlesim -> /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/lab2_turtlesim/share/ament_index/resource_index/packages
+[9.310s] symbolically linking /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim/package.xml -> /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/lab2_turtlesim/share/lab2_turtlesim
+[9.401s] Invoked command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim' returned '0': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim/build --no-deps symlink_data

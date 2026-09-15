@@ -1,0 +1,21 @@
+[5.444s] Invoking command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/turtle_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol/build --no-deps symlink_data
+[7.019s] running develop
+[8.259s] running egg_info
+[8.260s] writing turtle_patrol.egg-info/PKG-INFO
+[8.267s] writing dependency_links to turtle_patrol.egg-info/dependency_links.txt
+[8.270s] writing entry points to turtle_patrol.egg-info/entry_points.txt
+[8.275s] writing requirements to turtle_patrol.egg-info/requires.txt
+[8.278s] writing top-level names to turtle_patrol.egg-info/top_level.txt
+[8.288s] reading manifest file 'turtle_patrol.egg-info/SOURCES.txt'
+[8.292s] writing manifest file 'turtle_patrol.egg-info/SOURCES.txt'
+[8.300s] running build_ext
+[8.301s] Creating /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/turtle_patrol/lib/python3.10/site-packages/turtle-patrol.egg-link (link to .)
+[8.306s] Installing multi_patrol_server script to /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/turtle_patrol/lib/turtle_patrol
+[8.310s] Installing patrol_client script to /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/turtle_patrol/lib/turtle_patrol
+[8.317s] Installing patrol_client_sol script to /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/turtle_patrol/lib/turtle_patrol
+[8.323s] Installing patrol_server script to /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/turtle_patrol/lib/turtle_patrol
+[8.330s] Installing patrol_server_sol script to /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/turtle_patrol/lib/turtle_patrol
+[8.337s] 
+[8.339s] Installed /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol
+[8.339s] running symlink_data
+[8.430s] Invoked command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol' returned '0': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/turtle_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol/build --no-deps symlink_data

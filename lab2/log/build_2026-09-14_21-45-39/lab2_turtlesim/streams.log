@@ -1,0 +1,17 @@
+[8.976s] Invoking command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim/build --no-deps symlink_data
+[10.518s] running develop
+[11.815s] running egg_info
+[11.816s] writing lab2_turtlesim.egg-info/PKG-INFO
+[11.821s] writing dependency_links to lab2_turtlesim.egg-info/dependency_links.txt
+[11.827s] writing entry points to lab2_turtlesim.egg-info/entry_points.txt
+[11.832s] writing requirements to lab2_turtlesim.egg-info/requires.txt
+[11.835s] writing top-level names to lab2_turtlesim.egg-info/top_level.txt
+[11.846s] reading manifest file 'lab2_turtlesim.egg-info/SOURCES.txt'
+[11.851s] writing manifest file 'lab2_turtlesim.egg-info/SOURCES.txt'
+[11.859s] running build_ext
+[11.859s] Creating /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages/lab2-turtlesim.egg-link (link to .)
+[11.866s] Installing turtle_controller script to /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/lab2_turtlesim/lib/lab2_turtlesim
+[11.878s] 
+[11.880s] Installed /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim
+[11.880s] running symlink_data
+[11.981s] Invoked command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim' returned '0': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/lab2_turtlesim/build --no-deps symlink_data

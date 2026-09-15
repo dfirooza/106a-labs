@@ -1,0 +1,356 @@
+[0.159s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.160s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74b6898e94e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74b6898e9000>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74b6898e9000>>, mixin_verb=('build',))
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.516s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extension 'ignore_ament_install'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extensions ['colcon_pkg']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extension 'colcon_pkg'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extensions ['colcon_meta']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extension 'colcon_meta'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extensions ['ros']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extension 'ros'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extensions ['cmake', 'python']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extension 'cmake'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extension 'python'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extensions ['python_setup_py']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(lab0) by extension 'python_setup_py'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'ros'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['cmake', 'python']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'cmake'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'python'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extensions ['python_setup_py']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(lab1) by extension 'python_setup_py'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extension 'ignore_ament_install'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extension 'colcon_pkg'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extensions ['colcon_meta']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extension 'colcon_meta'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extensions ['ros']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extension 'ros'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extensions ['cmake', 'python']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extension 'cmake'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extension 'python'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extensions ['python_setup_py']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src) by extension 'python_setup_py'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src/chatter) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src/chatter) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src/chatter) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src/chatter) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src/chatter) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src/chatter) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src/chatter) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src/chatter) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(lab1/src/chatter) by extension 'ros'
+[0.583s] DEBUG:colcon.colcon_core.package_identification:Package 'lab1/src/chatter' with type 'ros.ament_python' and name 'chatter'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'ignore_ament_install'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['colcon_pkg']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'ros'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['cmake', 'python']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'cmake'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'python'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extensions ['python_setup_py']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(lab2) by extension 'python_setup_py'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extension 'ros'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extensions ['cmake', 'python']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extension 'cmake'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extension 'python'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extensions ['python_setup_py']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src) by extension 'python_setup_py'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/lab2_turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/lab2_turtlesim) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/lab2_turtlesim) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/lab2_turtlesim) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/lab2_turtlesim) by extension 'colcon_pkg'
+[0.606s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/lab2_turtlesim) by extensions ['colcon_meta']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/lab2_turtlesim) by extension 'colcon_meta'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/lab2_turtlesim) by extensions ['ros']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/lab2_turtlesim) by extension 'ros'
+[0.610s] DEBUG:colcon.colcon_core.package_identification:Package 'lab2/src/lab2_turtlesim' with type 'ros.ament_python' and name 'lab2_turtlesim'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol) by extension 'ignore_ament_install'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol) by extensions ['colcon_pkg']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol) by extension 'ros'
+[0.617s] DEBUG:colcon.colcon_core.package_identification:Package 'lab2/src/turtle_patrol' with type 'ros.ament_python' and name 'turtle_patrol'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol_interface) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol_interface) by extension 'ignore_ament_install'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol_interface) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol_interface) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol_interface) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol_interface) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol_interface) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(lab2/src/turtle_patrol_interface) by extension 'ros'
+[0.624s] DEBUG:colcon.colcon_core.package_identification:Package 'lab2/src/turtle_patrol_interface' with type 'ros.ament_cmake' and name 'turtle_patrol_interface'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'chatter' build argument 'cmake_args' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'chatter' build argument 'cmake_target' from command line to 'None'
+[0.678s] Level 5:colcon.colcon_core.verb:set package 'chatter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'chatter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'chatter' build argument 'cmake_clean_first' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'chatter' build argument 'cmake_force_configure' from command line to 'False'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'chatter' build argument 'ament_cmake_args' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'chatter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.679s] Level 5:colcon.colcon_core.verb:set package 'chatter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.679s] DEBUG:colcon.colcon_core.verb:Building package 'chatter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/chatter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter', 'merge_install': False, 'path': '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab1/src/chatter', 'symlink_install': False, 'test_result_base': None}
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'lab2_turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'lab2_turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'lab2_turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'lab2_turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'lab2_turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'lab2_turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'lab2_turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'lab2_turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'lab2_turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.681s] DEBUG:colcon.colcon_core.verb:Building package 'lab2_turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/lab2_turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim', 'merge_install': False, 'path': '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/lab2_turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.681s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol' build argument 'cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol' build argument 'cmake_target' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol' build argument 'cmake_clean_cache' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol' build argument 'cmake_clean_first' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol' build argument 'cmake_force_configure' from command line to 'False'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol' build argument 'ament_cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol' build argument 'catkin_cmake_args' from command line to 'None'
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.682s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_patrol' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol', 'merge_install': False, 'path': '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol', 'symlink_install': False, 'test_result_base': None}
+[0.682s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol_interface' build argument 'cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol_interface' build argument 'cmake_target' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.683s] Level 5:colcon.colcon_core.verb:set package 'turtle_patrol_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.683s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_patrol_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface', 'merge_install': False, 'path': '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface', 'symlink_install': False, 'test_result_base': None}
+[0.683s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.685s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.686s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab1/src/chatter' with build type 'ament_python'
+[0.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('chatter', 'ament_prefix_path')
+[0.695s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/share/chatter/hook/ament_prefix_path.ps1'
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/share/chatter/hook/ament_prefix_path.dsv'
+[0.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/share/chatter/hook/ament_prefix_path.sh'
+[0.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.739s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/lab2_turtlesim' with build type 'ament_python'
+[0.739s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2_turtlesim', 'ament_prefix_path')
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/share/lab2_turtlesim/hook/ament_prefix_path.ps1'
+[0.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/share/lab2_turtlesim/hook/ament_prefix_path.dsv'
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/share/lab2_turtlesim/hook/ament_prefix_path.sh'
+[0.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.769s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol' with build type 'ament_python'
+[0.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_patrol', 'ament_prefix_path')
+[0.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/share/turtle_patrol/hook/ament_prefix_path.ps1'
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/share/turtle_patrol/hook/ament_prefix_path.dsv'
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/share/turtle_patrol/hook/ament_prefix_path.sh'
+[0.790s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.790s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.801s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface' with build type 'ament_cmake'
+[0.801s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface'
+[0.802s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.022s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab1/src/chatter'
+[1.022s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.244s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/lab2_turtlesim'
+[1.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.487s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol'
+[1.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol_interface': CMAKE_PREFIX_PATH=/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble /usr/bin/cmake /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface -DCMAKE_INSTALL_PREFIX=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface
+[3.336s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: symlink_data, dist_info, init_catalog, saveopts, extract_messages, install_scripts, install_lib, develop, check, bdist, build_clib, compile_catalog, build_py, update_catalog, clean, upload_docs, build_scripts, build_ext, bdist_rpm, setopt, test, upload, alias, easy_install, sdist, register, install, install_headers, install_egg_info, bdist_egg, build, install_data, rotate, bdist_wheel, bdist_dumb, egg_info
+[3.339s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: symlink_data, dist_info, init_catalog, saveopts, extract_messages, install_scripts, install_lib, develop, check, bdist, build_clib, compile_catalog, build_py, update_catalog, clean, upload_docs, build_scripts, build_ext, bdist_rpm, setopt, test, upload, alias, easy_install, sdist, register, install, install_headers, install_egg_info, bdist_egg, build, install_data, rotate, bdist_wheel, bdist_dumb, egg_info
+[3.341s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: symlink_data, dist_info, init_catalog, saveopts, extract_messages, install_scripts, install_lib, develop, check, bdist, build_clib, compile_catalog, build_py, update_catalog, clean, upload_docs, build_scripts, build_ext, bdist_rpm, setopt, test, upload, alias, easy_install, sdist, register, install, install_headers, install_egg_info, bdist_egg, build, install_data, rotate, bdist_wheel, bdist_dumb, egg_info
+[3.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtle_patrol build --build-base /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol/build install --record /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol/install.log --install-scripts $base/lib/turtle_patrol --single-version-externally-managed install_data
+[3.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab1/src/chatter': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/chatter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/chatter build --build-base /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/chatter/build install --record /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/chatter/install.log --install-scripts $base/lib/chatter --single-version-externally-managed install_data
+[3.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/lab2_turtlesim': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/lab2_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lab2_turtlesim build --build-base /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/lab2_turtlesim/build install --record /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/lab2_turtlesim/install.log --install-scripts $base/lib/lab2_turtlesim --single-version-externally-managed install_data
+[3.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/lab2_turtlesim' returned '0': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/lab2_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/lab2_turtlesim build --build-base /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/lab2_turtlesim/build install --record /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/lab2_turtlesim/install.log --install-scripts $base/lib/lab2_turtlesim --single-version-externally-managed install_data
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim' for CMake module files
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim' for CMake config files
+[3.764s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/lib'
+[3.765s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/bin'
+[3.765s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/lib/pkgconfig/lab2_turtlesim.pc'
+[3.766s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/lib/python3.10/site-packages'
+[3.766s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2_turtlesim', 'pythonpath')
+[3.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/share/lab2_turtlesim/hook/pythonpath.ps1'
+[3.769s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/share/lab2_turtlesim/hook/pythonpath.dsv'
+[3.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/share/lab2_turtlesim/hook/pythonpath.sh'
+[3.776s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/bin'
+[3.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab2_turtlesim)
+[3.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/share/lab2_turtlesim/package.ps1'
+[3.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/share/lab2_turtlesim/package.dsv'
+[3.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/share/lab2_turtlesim/package.sh'
+[3.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/share/lab2_turtlesim/package.bash'
+[3.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/share/lab2_turtlesim/package.zsh'
+[3.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/lab2_turtlesim/share/colcon-core/packages/lab2_turtlesim)
+[3.809s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter' for CMake module files
+[3.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab1/src/chatter' returned '0': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/chatter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/chatter build --build-base /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/chatter/build install --record /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/chatter/install.log --install-scripts $base/lib/chatter --single-version-externally-managed install_data
+[3.815s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter' for CMake config files
+[3.824s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/lib'
+[3.824s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/bin'
+[3.825s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/lib/pkgconfig/chatter.pc'
+[3.827s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/lib/python3.10/site-packages'
+[3.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('chatter', 'pythonpath')
+[3.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/share/chatter/hook/pythonpath.ps1'
+[3.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/share/chatter/hook/pythonpath.dsv'
+[3.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/share/chatter/hook/pythonpath.sh'
+[3.842s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/bin'
+[3.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chatter)
+[3.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/share/chatter/package.ps1'
+[3.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/share/chatter/package.dsv'
+[3.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/share/chatter/package.sh'
+[3.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/share/chatter/package.bash'
+[3.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/share/chatter/package.zsh'
+[3.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/chatter/share/colcon-core/packages/chatter)
+[3.875s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol' for CMake module files
+[3.880s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol' for CMake config files
+[3.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol' returned '0': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtle_patrol build --build-base /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol/build install --record /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol/install.log --install-scripts $base/lib/turtle_patrol --single-version-externally-managed install_data
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/lib'
+[3.891s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/bin'
+[3.892s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/lib/pkgconfig/turtle_patrol.pc'
+[3.893s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/lib/python3.10/site-packages'
+[3.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_patrol', 'pythonpath')
+[3.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/share/turtle_patrol/hook/pythonpath.ps1'
+[3.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/share/turtle_patrol/hook/pythonpath.dsv'
+[3.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/share/turtle_patrol/hook/pythonpath.sh'
+[3.911s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/bin'
+[3.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_patrol)
+[3.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/share/turtle_patrol/package.ps1'
+[3.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/share/turtle_patrol/package.dsv'
+[3.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/share/turtle_patrol/package.sh'
+[3.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/share/turtle_patrol/package.bash'
+[3.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/share/turtle_patrol/package.zsh'
+[3.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol/share/colcon-core/packages/turtle_patrol)
+[12.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol_interface' returned '0': CMAKE_PREFIX_PATH=/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble /usr/bin/cmake /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/turtle_patrol_interface -DCMAKE_INSTALL_PREFIX=/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface
+[12.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol_interface': CMAKE_PREFIX_PATH=/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble /usr/bin/cmake --build /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol_interface -- -j32 -l32
+[15.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol_interface' returned '0': CMAKE_PREFIX_PATH=/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble /usr/bin/cmake --build /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol_interface -- -j32 -l32
+[15.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol_interface': CMAKE_PREFIX_PATH=/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble /usr/bin/cmake --install /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol_interface
+[16.776s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_patrol_interface)
+[16.777s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface' for CMake module files
+[16.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol_interface' returned '0': CMAKE_PREFIX_PATH=/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble /usr/bin/cmake --install /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/build/turtle_patrol_interface
+[16.783s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface' for CMake config files
+[16.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_patrol_interface', 'cmake_prefix_path')
+[16.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/hook/cmake_prefix_path.ps1'
+[16.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/hook/cmake_prefix_path.dsv'
+[16.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/hook/cmake_prefix_path.sh'
+[16.816s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/lib'
+[16.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_patrol_interface', 'ld_library_path_lib')
+[16.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/hook/ld_library_path_lib.ps1'
+[16.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/hook/ld_library_path_lib.dsv'
+[16.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/hook/ld_library_path_lib.sh'
+[16.831s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/bin'
+[16.832s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/lib/pkgconfig/turtle_patrol_interface.pc'
+[16.833s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/lib/python3.10/site-packages'
+[16.834s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/bin'
+[16.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/package.ps1'
+[16.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/package.dsv'
+[16.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/package.sh'
+[16.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/package.bash'
+[16.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/package.zsh'
+[16.856s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/colcon-core/packages/turtle_patrol_interface)
+[16.864s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_patrol_interface)
+[16.864s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface' for CMake module files
+[16.868s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface' for CMake config files
+[16.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_patrol_interface', 'cmake_prefix_path')
+[16.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/hook/cmake_prefix_path.ps1'
+[16.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/hook/cmake_prefix_path.dsv'
+[16.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/hook/cmake_prefix_path.sh'
+[16.893s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/lib'
+[16.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_patrol_interface', 'ld_library_path_lib')
+[16.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/hook/ld_library_path_lib.ps1'
+[16.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/hook/ld_library_path_lib.dsv'
+[16.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/hook/ld_library_path_lib.sh'
+[16.908s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/bin'
+[16.908s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/lib/pkgconfig/turtle_patrol_interface.pc'
+[16.910s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/lib/python3.10/site-packages'
+[16.911s] Level 1:colcon.colcon_core.environment:checking '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/bin'
+[16.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/package.ps1'
+[16.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/package.dsv'
+[16.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/package.sh'
+[16.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/package.bash'
+[16.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/turtle_patrol_interface/package.zsh'
+[16.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/turtle_patrol_interface/share/colcon-core/packages/turtle_patrol_interface)
+[16.936s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.937s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.939s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.939s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.979s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[16.979s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.980s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.980s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.085s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.085s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/local_setup.ps1'
+[17.091s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/_local_setup_util_ps1.py'
+[17.096s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/setup.ps1'
+[17.101s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/local_setup.sh'
+[17.105s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/_local_setup_util_sh.py'
+[17.109s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/setup.sh'
+[17.113s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/local_setup.bash'
+[17.117s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/setup.bash'
+[17.121s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/local_setup.zsh'
+[17.125s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/install/setup.zsh'

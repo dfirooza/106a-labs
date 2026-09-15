@@ -1,0 +1,12 @@
+[31mCMake Error at cmake_install.cmake:174 (file):
+  file RPATH_CHANGE could not write new RPATH:
+
+    
+
+  to the file:
+
+    /home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_typesupport_introspection_cpp.so
+
+  Error opening file for update.
+
+[0m

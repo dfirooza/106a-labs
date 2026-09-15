@@ -1,0 +1,1 @@
+/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/rosidl_typesupport_introspection_c/turtle_patrol_interface/srv/detail/patrol__rosidl_typesupport_introspection_c.h

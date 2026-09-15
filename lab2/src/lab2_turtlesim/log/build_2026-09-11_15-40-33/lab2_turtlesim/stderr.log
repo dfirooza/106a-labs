@@ -1,0 +1,5 @@
+  File "/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/src/lab2_turtlesim/install/lab2_turtlesim/lib/python3.10/site-packages/lab2_turtlesim/publisher.py", line 1
+    import geometry_msgs.msg import Twist
+                             ^^^^^^
+SyntaxError: invalid syntax
+

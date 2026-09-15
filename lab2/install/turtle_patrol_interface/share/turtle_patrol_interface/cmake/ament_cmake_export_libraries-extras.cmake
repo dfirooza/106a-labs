@@ -1,0 +1,1 @@
+/home/cc/ee106a/fa26/class/ee106a-agi/ros_workspaces/lab2/build/turtle_patrol_interface/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake
