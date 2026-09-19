@@ -7,9 +7,9 @@ from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from nav_msgs.msg import Odometry
 
-SIDE =    # meters
-V =     # m/s 
-W =       # rad/s 
+SIDE = 1.0   # meters
+V = 0.2  # m/s 
+W = 0.5     # rad/s 
 
 
 def quaternion_to_yaw(q):
@@ -21,11 +21,22 @@ class SquareDrive(Node):
     def __init__(self):
         super().__init__('square_drive')
 
+        self._pub_timer = self.create_timer(0.1, self._publish_current_cmd)
 
+        self._cmd_pub = self.create_publisher(Twist, '/cmd_vel', 10)
         # odom is watched, never used to steer. Do not touch just observe
         self.create_subscription(Odometry, 'odom', self.on_odom, 10)
         self.first_odom = None
         self.last_odom = None
+
+        self._lin = 0.0
+        self._ang = 0.0
+
+    def _publish_current_cmd(self):
+        msg = Twist()
+        msg.linear.x = self._lin
+        msg.angular.z = self._ang
+        self._cmd_pub.publish(msg)
 
     def spin_for(self, seconds):
         # keep the node spinning. Why do we need to do this?
@@ -33,9 +44,29 @@ class SquareDrive(Node):
         while rclpy.ok() and self.get_clock().now() < end:
             rclpy.spin_once(self, timeout_sec=0.05)
 
+
     def drive(self):
         # TODO: Drive around the square. 
-        raise NotImplementedError
+        
+        self._lin = 0.0
+        self._ang = 0.0
+        self.spin_for(1.0)
+        for i in range(4): 
+            self._lin = V
+            self._ang = 0.0
+            self._publish_current_cmd()
+            """if i == 0: 
+                self.spin_for(1)"""
+            self.spin_for(SIDE/V)
+            self._ang = W
+            self._lin = 0.0
+            self._publish_current_cmd()
+            self.spin_for(math.pi/(2*W))
+        self._lin = 0.0
+        self._ang = 0.0
+        self._publish_current_cmd()
+
+        #raise NotImplementedError
 
 # -----------------------------------------#
     def on_odom(self, msg):
@@ -72,10 +103,11 @@ def main():
 
     try:
         # TODO
+        node.drive()
     except KeyboardInterrupt:
         pass
     finally:
-        node.cmd_pub.publish(Twist())
+        node._cmd_pub.publish(Twist())
 
     node.report()
     node.destroy_node()
